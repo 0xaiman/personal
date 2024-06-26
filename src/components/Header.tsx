@@ -1,11 +1,14 @@
-// import { routeList } from "../routes/routes"
+
+import { Link } from "react-router-dom"
 
 export const Header = () => {
 return (
-    
-// //          <li className="text-gray-500 hover:text-indigo-600" key={key}>
-// <Link to={item.path}>{item.name}</Link>
-// </li>
-    <div className="text-xl font-semibold text-center bg-blue-300">Header</div>
+    <div className='w-full ' >
+        <ul className='text-2xl font-semibold flex flex-col md:flex-row gap-10  justify-center '>
+        <Link to={'/home'}>Home</Link>
+        <Link to={'/about'}>About</Link>
+        <Link to={'/contact'}>Contact</Link>
+        </ul>
+    </div>
 )
 }
