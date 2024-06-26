@@ -4,7 +4,7 @@ export const Home = () => {
     return (
     <>
         <Header/>
-        <h1 className="text-xl text-center ">Home</h1>
+        <h1 className="text-xl text-center h-screen bg-red-300 ">Home</h1>
     </>
     )
 }
